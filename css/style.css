@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	/*padding: 10px 0;
+	box-shadow: 0px 10px #888888;*/
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	/*border:1px solid white;*/
+	margin:0 auto;
+}
+.logo{
+	width: 20%;
+	/*border:1px solid white;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border:1px solid white;*/
+	float: right;
+	    margin-top: 40px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 20px;
+    display: block;
+    transition:.5s;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color:#0178BC;
+
+}
+/*header end*/
+
+/*Banner Start here*/
+.banner{
+	display: block;
+
+}
+.banner img{
+	width: 100%;
+	/*margin-top: 10px*/
+}
+/*Banner end here*/
